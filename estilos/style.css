@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+/* ESTILOS GENERALES */
+h2 {
+  color: rgb(98, 110, 32);
+}
+
+body {
+  background-color: aqua;
+  margin: 0;
+}
+
+#main-title {
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+/* ... */
+
+section h2 {
+  color: blueviolet;
+}
+
+#quienes {
+  background-color: lightcoral;
+}
+
+#lugar {
+  background-color: lightgreen;
+}
+
+#hobbies {
+  background-color: lightslategray;
+}
+
+#quienes li {
+  color: darkred
+}
+
+#lugar li {
+  color: darkgreen
+}
+
+#hobbies li {
+  color: darkblue
+}
+
+
+#titulo-cualquiera {
+  color: blueviolet;
+}
+
+h3 {
+  color: burlywood;
+}
+
+/* ESPECIFICIDAD. PRIORIDAD PARA ASIGNAR ESTILOS */
+
+/* 
+1. Estilos en linea
+2. Estilos por id
+3. Estilos por clase
+4. Estilos por etiqueta
+5. Estilos por cualquier otro atributo
+*/
+
+.sub-title {
+  background-color: black;
+  text-align: center;
+  text-decoration: dotted;
+  text-transform: uppercase;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Bungee Tint", sans-serif;
+  text-shadow: 5px 3px 5px #1C6EA4;
+
+}
+
+.section-container {
+  /*border-width: 10px;
+  border-color: black;
+  border-style: solid;*/
+
+  border: 10px black solid;
+
+  /* padding-left: 20px;   */
+
+  /* padding: 20px; */
+  padding: 5px 20px 10px 20px;
+
+  margin: 50px;
+  
+  /* text-align: center; */
+}
+
+body {
+  background-image: url("../images/naruto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
